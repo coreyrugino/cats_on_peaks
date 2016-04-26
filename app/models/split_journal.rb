@@ -1,2 +1,2 @@
-class SplitJournal < ActiveRecord::Base
+class Split_journal < ActiveRecord::Base
 end

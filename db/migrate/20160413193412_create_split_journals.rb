@@ -3,7 +3,7 @@ class CreateSplitJournals < ActiveRecord::Migration
     create_table :split_journals do |t|
       t.datetime :date
       t.string :title
-      t.textarea :body
+      t.string :body
       t.string :partners
 
       t.timestamps null: false

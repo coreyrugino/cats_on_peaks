@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -38,7 +38,7 @@ group :development, :test do
   gem 'byebug'
   gem 'better_errors'
   gem 'pry'
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 3.4'
   gem 'shoulda-matchers', '~> 3.0'
   gem 'database_cleaner'
   gem 'simplecov'
